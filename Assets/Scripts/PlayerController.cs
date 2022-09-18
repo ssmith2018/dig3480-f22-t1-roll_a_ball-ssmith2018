@@ -42,7 +42,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void 
+    void SetLivesText()
+    {
+        
+    }
     private void FixedUpdate()
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);

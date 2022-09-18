@@ -44,7 +44,8 @@ public class PlayerController : MonoBehaviour
 
     void SetLivesText()
     {
-        
+        livesText.text = "Lives: " + SetLivesText.ToString();
+        if ()
     }
     private void FixedUpdate()
     {

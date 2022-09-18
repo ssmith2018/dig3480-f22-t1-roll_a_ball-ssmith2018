@@ -23,8 +23,12 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         count = 0;
 
+        lives = 3;
+
         SetCountText();
+        SetLivesText();
         winTextObject.SetActive(false);
+        loseTextObject.SetActive(false);
     }
 
     private void OnMove(InputValue movementValue)

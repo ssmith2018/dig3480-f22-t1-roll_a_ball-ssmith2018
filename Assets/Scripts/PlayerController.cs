@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lives = lives - 1;
-            SetCountText();
+            SetLivesText();
         }
         if (count == 12)
         {
